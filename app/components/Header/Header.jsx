@@ -45,7 +45,7 @@ const Header = () => {
 
       <div className="header-middle">
         <nav className="navbar navbar-expand-xl">
-          <div className="container custom-container header-adjust">
+          <div className="custom-container header-adjust">
             <a className="navbar-brand" href="#">
               <Image
                 src={
