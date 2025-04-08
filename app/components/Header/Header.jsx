@@ -255,6 +255,9 @@ const Header = () => {
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
+                      style={{
+                        backgroundImage: `linear-gradient(90deg, #b0398d, #cf93b7)`,
+                      }}
                     >
                       <span className="lang-icon"></span>
                     </a>

@@ -7011,7 +7011,7 @@ ul.descList {
   padding: 0;
   margin: 0;
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1200px) {
   .custom-container {
     max-width: 1500px;
   }
