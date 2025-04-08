@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Pause</title>
+    <g id="Pranaam" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pause" fill-rule="nonzero">
+            <path d="M50,25 C50,38.652107 38.6765776,50 25,50 C11.3480603,50 0,38.652107 0,25 C0,11.3235479 11.3235479,0 24.9755294,0 C38.652107,0 50,11.3235479 50,25 Z" id="Shape-Copy-2" fill="#FFFFFF"></path>
+            <path d="M27.6666667,34.6666667 L33,34.6666667 L33,16 L27.6666667,16 M17,34.6666667 L22.3333333,34.6666667 L22.3333333,16 L17,16 L17,34.6666667 Z" id="Shape" fill="#000000"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Play</title>
+    <g id="Pranaam" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Play">
+            <rect id="Rectangle" stroke="#979797" fill="#000000" x="13.5" y="13.5" width="23" height="22"></rect>
+            <path d="M50,25 C50,38.652107 38.6765776,50 25,50 C11.3480603,50 0,38.652107 0,25 C0,11.3235479 11.3235479,0 24.9755294,0 C38.652107,0 50,11.3235479 50,25 Z M17.8186621,16.2255189 L17.8186621,33.7991818 C17.8186621,35.0245961 19.1667015,35.5882574 20.3431746,34.8775631 L34.7305302,26.3971271 C35.7844409,25.7598447 35.7599702,24.2893057 34.7305302,23.676494 L20.3431746,15.1470957 C19.2647514,14.5098343 17.8186621,15.0245334 17.8186621,16.2255189 Z" id="Shape-Copy" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
