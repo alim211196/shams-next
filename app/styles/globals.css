@@ -4073,7 +4073,7 @@ select.form-control {
 }
 
 .profileSideBar .profileBook {
-  background: url("/profile-book.png") no-repeat center left;
+  background: url("/profile-book.svg") no-repeat center left;
   padding-left: 30px;
   background-size: 24px;
 }
