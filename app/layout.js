@@ -1,14 +1,13 @@
 import StoreProvide from "./StoreProvider";
-// import "bootstrap/dist/css/bootstrap.min.css";
-import BootstrapLoader from "./components/Bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/globals.css";
+import BootstrapLoader from "./components/Bootstrap";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Suspense } from "react";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import SuspenseLoader from "./utils/SuspenseLoader";
-import ReactQueryProvider from "./utils/QueryProvider";
 import SettingsLoader from "./utils/SettingsLoader";
 import { getStudentAuthPages } from "./features/student/auth/authService";
 import { getSettings } from "./features/settings/settingService";
