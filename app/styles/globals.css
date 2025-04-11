@@ -4073,14 +4073,13 @@ select.form-control {
 }
 
 .profileSideBar .profileBook {
-  background: url("../assets/images/profile-book.png") no-repeat center left;
+  background: url("/profile-book.png") no-repeat center left;
   padding-left: 30px;
   background-size: 24px;
 }
 
 .profileSideBar .profileWorkshop {
-  background: url("../assets/images/svg/workshop-icon.svg") no-repeat center
-    left;
+  background: url("/workshop-icon.svg") no-repeat center left;
   padding-left: 30px;
   background-size: 24px;
 }
