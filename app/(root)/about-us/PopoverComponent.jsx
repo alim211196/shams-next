@@ -1,6 +1,5 @@
 "use client";
 import { useEffect } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const PopoverComponent = ({ achievements }) => {
   useEffect(() => {

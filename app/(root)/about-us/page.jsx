@@ -3,8 +3,6 @@ import React from "react";
 import featureIcon1 from "../../assets/images/feature-icon1.svg";
 import aboutShams from "../../assets/images/about-shams.png";
 import Image from "next/image";
-
-import "bootstrap/dist/css/bootstrap.min.css";
 import PopoverComponent from "./PopoverComponent";
 import { getS3ImageUrl } from "@/app/utils/helper";
 import { getAboutDetails } from "@/app/features/student/aboutus/aboutService";
