@@ -1,7 +1,7 @@
 import StoreProvide from "./StoreProvider";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BootstrapLoader from "./components/Bootstrap";
-import "@/app/styles/globals.css";
+import "./styles/globals.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Suspense } from "react";
@@ -26,7 +26,7 @@ export default async function RootLayout({ children }) {
   const settings =
     settingsResponse?.data?.data || settingsResponse?.data || null;
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
         <StoreProvide>
           <Suspense fallback={<SuspenseLoader />}>
