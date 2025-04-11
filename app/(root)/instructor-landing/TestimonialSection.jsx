@@ -53,6 +53,7 @@ const TestimonialSection = ({ testimonials }) => {
                       "testimonial",
                       currentTestimonial.profile_img
                     )}
+                    unoptimized
                     alt="testimonial-profile"
                     width={300} // Keep width and height fixed
                     height={400}

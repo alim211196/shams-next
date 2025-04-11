@@ -149,6 +149,7 @@ const QuestionSection = ({ questions }) => {
                                 "student_question/options",
                                 option.icon
                               )}
+                              unoptimized
                               width={32} // Set a numeric width for static images
                               height={32}
                             />
@@ -193,6 +194,7 @@ const QuestionSection = ({ questions }) => {
                     "student_question",
                     questions[currentStep]?.ques_img
                   )}
+                  unoptimized
                   width={560} // Set a numeric width for static images
                   height={560}
                   className="img-fluid"

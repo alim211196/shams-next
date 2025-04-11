@@ -44,6 +44,7 @@ const FaqList = ({ faqs, categories, cms }) => {
                       )
                     : faqBanner
                 }
+                unoptimized
                 width={cms?.faq_section1_banner_img ? 500 : 500} // Set a numeric width for static images
                 height={cms?.faq_section1_banner_img ? 500 : 500}
                 alt="faBanner"

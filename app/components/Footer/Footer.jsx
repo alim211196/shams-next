@@ -66,6 +66,7 @@ const Footer = () => {
                           )
                         : logoWhite
                     }
+                    unoptimized
                     width={198}
                     height={112}
                     alt="logo white"
@@ -307,6 +308,7 @@ const Footer = () => {
                             )
                           : visaIcon
                       }
+                      unoptimized
                       width={85}
                       height={86}
                       alt="Visa"
@@ -320,6 +322,7 @@ const Footer = () => {
                             )
                           : masterCard
                       }
+                      unoptimized
                       width={85}
                       height={86}
                       alt="Mastercard"
