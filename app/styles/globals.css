@@ -2911,7 +2911,7 @@ select.form-control {
   border-radius: 16px;
   margin: 10px 0px;
   gap: 40px;
-  background: url("../assets/images/faq-card-bg.png") no-repeat center center;
+  background: url("/faq-card-bg.png") no-repeat center center;
   background-size: cover;
   padding: 90px;
 }
@@ -5902,7 +5902,7 @@ ul.descList {
   gap: 5px;
   margin: 20px;
   position: absolute;
-  right: 50;
+  right: 50px;
 }
 
 .nav-buttons button {
@@ -6751,7 +6751,7 @@ ul.descList {
 }
 
 .myFaciHeader .myBooking {
-  background: url("../assets/images/my-booking.svg") no-repeat center left;
+  background: url("/my-booking.svg") no-repeat center left;
   padding-left: 40px;
   background-size: 30px;
   font-size: 26px;

@@ -349,7 +349,7 @@ const page = async () => {
                           "page_content",
                           cms?.instructor_section6_card_img
                         )
-                      : "../../assets/images/faq-card-bg.png"
+                      : "/faq-card-bg.png"
                   })`,
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
