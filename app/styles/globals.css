@@ -7017,7 +7017,7 @@ ul.descList {
 }
 @media only screen and (min-width: 1280px) {
   .custom-container {
-    max-width: 1500px;
+    max-width: 1500px !important;
   }
 }
 
