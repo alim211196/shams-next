@@ -1,9 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",
-  experimental: {
-    appDir: true,
-  },
   images: {
     domains: [
       "project-images-development.s3.me-central-1.amazonaws.com",
