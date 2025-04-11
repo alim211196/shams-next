@@ -26,7 +26,7 @@ export default async function RootLayout({ children }) {
   const settings =
     settingsResponse?.data?.data || settingsResponse?.data || null;
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <body>
         <StoreProvide>
           <Suspense fallback={<SuspenseLoader />}>
