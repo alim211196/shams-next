@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["project-images-development.s3.me-central-1.amazonaws.com"],
+    domains: [
+      "project-images-development.s3.me-central-1.amazonaws.com",
+      "lms-shams.netlify.app",
+    ],
   },
-
   webpack(config, { isServer }) {
     // Fix asset path resolution
     config.module.rules.push({
