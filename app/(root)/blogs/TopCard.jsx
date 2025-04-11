@@ -24,7 +24,6 @@ const TopCard = ({ blog }) => {
                 ? getS3ImageUrl("blog", blog?.banner_img)
                 : blogBanner
             }
-            unoptimized
             alt="blogBanner"
             width={500} // Set a proper width
             height={200} // Set a proper height
@@ -61,7 +60,6 @@ const TopCard = ({ blog }) => {
                         ? getS3ImageUrl("staff", blog?.created_by?.profile_img)
                         : autharImg
                     }
-                    unoptimized
                     alt="autharImg"
                     width={50} // Set a proper width
                     height={50} // Set a proper height

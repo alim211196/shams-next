@@ -91,7 +91,6 @@ const page = () => {
                 ? getS3ImageUrl("auth_page", student?.student_login_banner_img)
                 : authLogin
             }
-            unoptimized
             width={student?.student_login_banner_img ? 500 : 500} // Set a numeric width for static images
             height={student?.student_login_banner_img ? 400 : 500}
             alt="login"

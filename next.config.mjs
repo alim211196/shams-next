@@ -1,11 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [
-      "project-images-development.s3.me-central-1.amazonaws.com",
-      "lms-shams.netlify.app",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "project-images-development.s3.me-central-1.amazonaws.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "lms-shams.netlify.app",
+        pathname: "/**",
+      },
     ],
-    unoptimized: false, // Keep image optimization unless overriding
   },
 
   webpack(config, { isServer }) {

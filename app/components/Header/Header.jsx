@@ -53,7 +53,6 @@ const Header = () => {
                     ? getS3ImageUrl("settings", getSetting("header_logo_img"))
                     : headerLogo
                 }
-                unoptimized
                 width={150}
                 height={100}
                 alt="Logo"

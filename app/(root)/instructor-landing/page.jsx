@@ -49,7 +49,6 @@ const page = async () => {
                       )
                     : partnerBanner
                 }
-                unoptimized
                 width={cms?.instructor_section1_banner_img ? 900 : 900} // Set a numeric width for static images
                 height={cms?.instructor_section1_banner_img ? 650 : 650}
                 alt="PartnerBanner"

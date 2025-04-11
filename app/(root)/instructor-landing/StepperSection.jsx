@@ -86,7 +86,6 @@ const StepperSection = ({ cms }) => {
                     ? getS3ImageUrl("page_content", steps[currentStep].img)
                     : getStarted
                 }
-                unoptimized
                 width={steps[currentStep].img ? 400 : 400} // Set a numeric width for static images
                 height={steps[currentStep].img ? 400 : 400}
                 alt="getStarted"

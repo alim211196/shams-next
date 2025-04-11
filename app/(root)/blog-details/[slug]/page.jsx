@@ -61,7 +61,6 @@ const page = async ({ params }) => {
                       ? getS3ImageUrl("blog", blog?.banner_img)
                       : blogBanner
                   }
-                  unoptimized
                   alt="blogBanner"
                   width={500} // Set a proper width
                   height={200} // Set a proper height
@@ -101,7 +100,6 @@ const page = async ({ params }) => {
                                 )
                               : autharImg
                           }
-                          unoptimized
                           alt="autharImg"
                           width={50} // Set a proper width
                           height={50} // Set a proper height

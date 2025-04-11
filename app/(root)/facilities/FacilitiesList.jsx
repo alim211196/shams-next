@@ -200,7 +200,6 @@ const FacilitiesList = ({
                               ? getS3ImageUrl("facility", facility?.card_img)
                               : facProductImg
                           }
-                          unoptimized
                           style={{
                             width: "100%",
                             height: "350px",
@@ -261,7 +260,6 @@ const FacilitiesList = ({
                                             )
                                           : meetingrRoom
                                       }
-                                      unoptimized
                                       alt={amenity?.name}
                                     />
                                     {amenity?.name}

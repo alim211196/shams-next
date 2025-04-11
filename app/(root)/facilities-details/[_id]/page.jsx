@@ -68,7 +68,6 @@ const page = async ({ params }) => {
                         ? getS3ImageUrl("facility", facility?.banner_img)
                         : tranningDetails
                     }
-                    unoptimized
                     style={{
                       width: "100%",
                       height: "391px",
@@ -103,7 +102,6 @@ const page = async ({ params }) => {
                               ? getS3ImageUrl("amenity", amenity?.icon_img)
                               : meetingrRoom
                           }
-                          unoptimized
                           alt={amenity?.name}
                         />
                         {amenity?.name}
