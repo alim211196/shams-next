@@ -1,7 +1,7 @@
 import StoreProvide from "./StoreProvider";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BootstrapLoader from "./components/Bootstrap";
-import "./styles/globals.css";
+import "@/app/styles/globals.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Suspense } from "react";
