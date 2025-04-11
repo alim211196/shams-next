@@ -4324,7 +4324,7 @@ select.form-control {
 /* beCertificate start here*/
 
 .beCertificate {
-  background: url("../assets/images/certificate-bg.png") no-repeat center center;
+  background: url("/certificate-bg.png") no-repeat center center;
   padding: 0px;
   background-size: cover;
   margin: 60px 0px;
