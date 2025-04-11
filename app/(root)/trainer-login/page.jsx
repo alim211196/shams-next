@@ -60,7 +60,7 @@ const page = () => {
           removeRememberedUser();
         }
         setTimeout(() => {
-          router.push("/"); // Change to your dashboard route
+          router.push("/add-course"); // Change to your dashboard route
         }, 2000);
       } else if (response.status === 401) {
         // Handle unverified user

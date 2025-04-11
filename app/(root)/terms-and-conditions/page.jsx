@@ -13,7 +13,7 @@ const page = async () => {
   const cms = await fetchCMS("terms-and-conditions", "en");
 
   return (
-    <div className="log_wraps">
+    <div className="log_wraps" style={{ marginTop: "10vh" }}>
       <div className="log__heads">
         <h1>{cms.terms_conditions_section1_title || "Terms and Conditions"}</h1>
         <div

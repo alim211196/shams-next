@@ -170,18 +170,17 @@ const page = () => {
               <div className="form-group">
                 <div className="checkbox">
                   <input
-                    id="checkbox"
+                    id="terms"
                     type="checkbox"
                     value="yes"
                     checked={isAgreed === "yes"}
                     onChange={handleCheckboxChange}
                   />
-                  <label htmlFor="checkbox">
-                    I agree to the
+                  <label htmlFor="terms">
+                    I agree to the{" "}
                     <Link href="/terms-and-conditions">
-                      {" "}
-                      Terms and Conditions{" "}
-                    </Link>
+                      Terms and Conditions
+                    </Link>{" "}
                     for instructors.
                   </label>
                 </div>

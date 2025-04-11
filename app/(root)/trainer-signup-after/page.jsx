@@ -299,6 +299,9 @@ const page = () => {
                           Korem ipsum dolor sit amet, consectetur adipiscing
                           elit
                         </p>
+                        <button onClick={GoToLogin} className="btn-gradient">
+                          Continue
+                        </button>
                       </div>
                     </div>
                   </div>

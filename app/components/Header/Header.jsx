@@ -46,7 +46,7 @@ const Header = () => {
       <div className="header-middle">
         <nav className="navbar navbar-expand-lg">
           <div className="container custom-container header-adjust">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="/">
               <Image
                 src={
                   getSetting("header_logo_img")
@@ -60,7 +60,7 @@ const Header = () => {
             </a>
 
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -68,7 +68,7 @@ const Header = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
 
             <div className="row">
@@ -255,9 +255,6 @@ const Header = () => {
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
-                      style={{
-                        backgroundImage: `linear-gradient(90deg, #b0398d, #cf93b7)`,
-                      }}
                     >
                       <span className="lang-icon"></span>
                     </a>
@@ -301,7 +298,7 @@ const Header = () => {
                   {/* {getSetting("enable_join_now") == "true" && ( */}
                   {!token && (
                     <li className="nav-item header-btn signup-btn">
-                      <Link href="#">Join Now</Link>
+                      <Link href="/trainer-signup">Join Now</Link>
                     </li>
                   )}
 
@@ -339,7 +336,10 @@ const Header = () => {
                           </li>
                           <li>
                             {" "}
-                            <a className="dropdown-item" href="#">
+                            <a
+                              className="dropdown-item"
+                              href="/student-profile"
+                            >
                               My Profile
                             </a>{" "}
                           </li>
