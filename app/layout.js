@@ -1,5 +1,5 @@
 import StoreProvide from "./StoreProvider";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import BootstrapLoader from "./components/Bootstrap";
 import "./styles/globals.css";
 import { ToastContainer } from "react-toastify";
