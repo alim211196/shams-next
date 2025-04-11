@@ -4180,7 +4180,7 @@ select.form-control {
 }
 
 .imagePreview {
-  background: url("../assets/images/profile-upload.png") no-repeat center center;
+  background: url("/profile-upload.png") no-repeat center center;
 }
 
 .avatar-upload {

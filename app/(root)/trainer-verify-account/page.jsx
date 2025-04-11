@@ -42,7 +42,7 @@ const page = () => {
 
   useEffect(() => {
     if (!decryptedEmail) {
-      router.push("/trainer-register"); // Redirect if no email is found
+      router.push("/trainer-signup"); // Redirect if no email is found
     }
   }, [decryptedEmail, router]);
 
